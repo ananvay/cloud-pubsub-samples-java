@@ -264,7 +264,7 @@ public class WebSocketInjectorStub {
       return;
     }
 
-    String outputTopic = new String(args[0]);
+    outputTopic = new String(args[0]);
 
     System.out.println("Output Pubsub topic: " + outputTopic);
 
